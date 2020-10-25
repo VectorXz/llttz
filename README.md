@@ -447,7 +447,14 @@ ECC = max{C1,C2} = max{2,2} = 2 Test cases
 
     (True, True) , (True, False) , (False, True) ,(False, False)
 
-**5. Derive test values and expected value** // not finish
+**5. Derive test values and expected value** 
+
+| Test Cases        	|  Location node     					| Expected result       |
+| :---------------:	| :-----------------------------------------:			| :-----------------:	|
+| T1 (True,True)  	|        null     					|      Infeasible test      |
+| T2 (True, False)	|        null      					|       Error   	|
+|T3 (False, True)        |    Location[5.299845231256514,-4.035228277364237]	|       Africa/Abidjan   |
+|T3 (False, False)        |   Location[13.7946584,13.731967]			|       Asia/Bangkok    |
 
 [Back to top](tableofcontent)
 
