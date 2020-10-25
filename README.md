@@ -414,7 +414,7 @@ ECC = max{C1,C2} = max{2,2} = 2
 [Back to top](tableofcontent)
 
 ---
-## TEST CASE #9 // not finish
+## TEST CASE #9 
 **Name of the test case:** testNearestTimeZone()
 
 **Goal of the test case:** Test whether the location has the nearest timezone
