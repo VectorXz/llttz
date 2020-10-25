@@ -399,23 +399,22 @@ ECC = max{C1,C2} = max{2,2} = 2 Test cases
 | C1 = searchLocation is null 	| True 	| False 	|
 | C2 =  TimeZone is found     	| True 	| False 	|
 
-**4. Approach :** ECC = max{C1,C2} = max{2,2} = 2
-
-1. (True, True) 
-2. (True, False)
+**4. Approach :**
+ECC = max{C1,C2} = max{2,2} = 2
+(False, True) , (False, False)
 
 **5. Derive test values and expected value** 
 
 | Test Cases        |  searchLocation       | Expected result       |
 | :---------------:	| :-----------------:	| :-----------------:	|
-| T1 (True,True)  	|        xx       	|      xxxx      	|
-| T2 (True, False)	|        xx       	|       xx    	|
+| T1 (False,True)  	|       (lat 23.45, lon 35.34)       	|     Found     	|
+| T2 (False, False)	|       (lat 35, 32, lon 13,25)      	|       Infeasible    	|
 
 
 [Back to top](tableofcontent)
 
 ---
-## TEST CASE #9 // not finish
+## TEST CASE #9 
 **Name of the test case:** testNearestTimeZone()
 
 **Goal of the test case:** Test whether the location has the nearest timezone
@@ -447,7 +446,14 @@ ECC = max{C1,C2} = max{2,2} = 2 Test cases
 
     (True, True) , (True, False) , (False, True) ,(False, False)
 
-**5. Derive test values and expected value** // not finish
+**5. Derive test values and expected value** 
+
+| Test Cases        	|  Location node     					| Expected result       |
+| :---------------:	| :-----------------------------------------:			| :-----------------:	|
+| T1 (True,True)  	|        null     					|      Infeasible test      |
+| T2 (True, False)	|        null      					|       Error   	|
+|T3 (False, True)        |    Location[5.299845231256514,-4.035228277364237]	|       Africa/Abidjan   |
+|T3 (False, False)        |   Location[13.7946584,13.731967]			|       Asia/Bangkok    |
 
 [Back to top](tableofcontent)
 
@@ -490,8 +496,8 @@ ECC = max{C1,C2} = max{2,2} = 2 Test cases
 **5. Derive test values and expected value** 
 | Test Cases                    | Expected result  	                |
 | :-------------------------:	| :----------------------------:	|
-| T1 (True, True)               | tzStore is not null 	            |
-| T2 (True, False) 	            | tzStore is null	                |
+| T1 (True, True)               | tzStore is not null	            |
+| T2 (True, False) 	            | tzStore is empty	                |
 | T3 (False, True)              | Infeasible test 	                |
 | T4 (False, False) 	        | throw IllegalArgumentException	|
 
