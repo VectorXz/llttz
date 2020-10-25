@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: gapchenko.llttz.test.HyperSphereTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in gapchenko.llttz.test.HyperSphereTest
+testHyperSphere2(gapchenko.llttz.test.HyperSphereTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+testHyperSphere5(gapchenko.llttz.test.HyperSphereTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+testHyperSphere6(gapchenko.llttz.test.HyperSphereTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+testHyperSphere7(gapchenko.llttz.test.HyperSphereTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+testHyperSphere8(gapchenko.llttz.test.HyperSphereTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+

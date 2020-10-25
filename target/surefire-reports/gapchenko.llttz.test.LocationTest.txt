@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: gapchenko.llttz.test.LocationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in gapchenko.llttz.test.LocationTest
+testLocation1(gapchenko.llttz.test.LocationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+testLocation2(gapchenko.llttz.test.LocationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+

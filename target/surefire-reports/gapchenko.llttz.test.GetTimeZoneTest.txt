@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: gapchenko.llttz.test.GetTimeZoneTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE! - in gapchenko.llttz.test.GetTimeZoneTest
+testGetTimeZone3(gapchenko.llttz.test.GetTimeZoneTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+testGetTimeZone4(gapchenko.llttz.test.GetTimeZoneTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
